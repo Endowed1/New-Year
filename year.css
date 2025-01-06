@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.boxed{
+    margin: auto;
+    margin-top: 30px;
+    border: black solid 1px;
+    height: 300px;
+    width: 500px;
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+    grid-template-columns: repeat(3, auto);
+}
+.boxed div{
+    border: black solid 1px;
+}
+.box{
+    grid-column: 2/4;
+    background-color: red;
+}
+.bn{
+    grid-column: 1/3;
+    background-color: black;
+}
+.n{
+    background-color: blue;
+}
+.v{
+    background-color: orange;
+}
